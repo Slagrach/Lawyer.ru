@@ -1303,6 +1303,7 @@ body.lock {
   top: -25px;
   width: 410px;
   margin: 0 auto;
+  z-index: 1;
 }
 
 .cases-slider__nav-slid {
