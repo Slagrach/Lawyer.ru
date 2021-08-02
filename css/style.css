@@ -1303,7 +1303,6 @@ body.lock {
   top: -25px;
   width: 410px;
   margin: 0 auto;
-  z-index: 1;
 }
 
 .cases-slider__nav-slid {
@@ -2030,9 +2029,9 @@ body.lock {
 }
 
 .contact-form__box:hover label {
-  -webkit-transform: scale(-0.1);
-      -ms-transform: scale(-0.1);
-          transform: scale(-0.1);
+  -webkit-transform: scale(-2);
+      -ms-transform: scale(-2);
+          transform: scale(-2);
   visibility: hidden;
   opacity: 0;
   -webkit-transition: .5s;
@@ -2046,9 +2045,9 @@ body.lock {
 .contact-form__box .contact-form__box-tel:valid ~ .contact-form__box-label,
 .contact-form__box .contact-form__box-email:focus + .contact-form__box-label,
 .contact-form__box .contact-form__box-email:valid ~ .contact-form__box-label {
-  -webkit-transform: scale(-0.1);
-      -ms-transform: scale(-0.1);
-          transform: scale(-0.1);
+  -webkit-transform: scale(-2);
+      -ms-transform: scale(-2);
+          transform: scale(-2);
   visibility: hidden;
   opacity: 0;
   -webkit-transition: .5s;
@@ -2189,6 +2188,7 @@ body.lock {
     width: 263px;
     font-size: 20px;
     text-align: right;
+    align-self: flex-end;
     z-index: 1;
   }
 
@@ -2211,10 +2211,12 @@ body.lock {
     width: 224px;
     font-size: 12px;
     text-align: right;
+    align-self: flex-end;
   }
 
   .intro-btn {
     font-size: 10px;
+    align-self: flex-end;
     padding: 9px 23px;
     margin: 34px 0 12px 0;
   }
@@ -2228,6 +2230,7 @@ body.lock {
 
   .intro-name {
     width: 119px;
+    align-self: flex-end;
     font-size: 16px;
     color: #3E84D7;
     margin: 43px 0 5px 5px;
@@ -2237,6 +2240,7 @@ body.lock {
   .intro-pos {
     width: 100px;
     font-size: 12px;
+    align-self: flex-end;
   }
 
   .questions-content:before {
